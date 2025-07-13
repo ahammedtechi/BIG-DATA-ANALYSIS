@@ -28,12 +28,12 @@
 - *Google Colab** – Cloud-based notebook for PySpark setup.
 
 
-##  Project Summary 
+## PROJECT SUMMARY 
 
 This project demonstrates the application of **Apache PySpark** in analyzing a structured air travel dataset in a scalable, efficient manner. PySpark, the Python API for Apache Spark, is widely used in industry for **big data analysis** and **distributed computing**. The dataset used captures monthly international passenger counts between 1958 and 1960 and serves as a great entry point for applying Spark's transformation and aggregation capabilities.
 
 
-##  Key Steps:
+##  KEY STEPS
 1. **Data Reshaping**: The original dataset came in a wide format. Using PySpark, it was reshaped into a long format to make it suitable for grouping and summarization.
 2. **Column Cleaning**: All column names were standardized to lowercase without spaces.
 3. **Aggregation**: 
@@ -42,3 +42,5 @@ This project demonstrates the application of **Apache PySpark** in analyzing a s
 4. **Sorting & Filtering**: Peak travel months were identified using `orderBy`, and insights were drawn from the data distributions.
 5. **Performance Highlight**: Even with a small dataset, the use of PySpark illustrated how large datasets would benefit from similar transformations in a distributed system.
 
+##  RESULT
+Successfully demonstrated large-scale data processing using PySpark.
